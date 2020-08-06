@@ -1,0 +1,4 @@
+[INFO ] 2020-08-05 22:49:18.200 [main] RunnerClass - This is info
+[ERROR] 2020-08-05 22:49:18.204 [main] RunnerClass - This is error
+[WARN ] 2020-08-05 22:49:18.204 [main] RunnerClass - This is warn
+[FATAL] 2020-08-05 22:49:18.204 [main] RunnerClass - This is fatal

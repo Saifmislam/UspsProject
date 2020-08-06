@@ -1,0 +1,23 @@
+package com.saif.assignment2;
+
+public class IncrementDecrement {
+
+	public static void main(String[] args) {
+	int x = 30;
+	int y;
+	
+	y = ++x;// y=31
+	System.out.println("Y : "+y);
+	
+	y = x; // y= 31
+	System.out.println("Y : "+y);
+	
+	y = x++; // y= 32
+	System.out.println("Y : "+y);
+	
+	y = x; // y=31
+	System.out.println("Y : "+y);
+	
+	
+	}
+}

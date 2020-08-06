@@ -1,0 +1,41 @@
+package com.saif.assignment2;
+
+import java.util.Scanner;
+
+public class StudentGradeParameter {
+	
+public static void main (String[] args)
+
+	Scanner input = new Scanner (System.in);
+		int Marks;
+		System.out.println("Enter any Marks");
+		Marks = input.nextInt();
+		// If Else Statement
+		
+		if(Marks>=90) {
+			System.out.println("You got A Grade!!!");
+		}
+		
+		else if (Marks>=80 && Marks <=89){
+			System.out.println("You got B Grade!!!");
+		}
+		
+		else if (Marks>=70 && Marks <=79){
+			System.out.println("You got C Grade!!!");
+		} 
+		
+		else if (Marks>=60 && Marks <=69){
+			System.out.println("You got D Grade!!!");
+		} 
+		
+		else if (Marks>60){
+			System.out.println("Sorry You Failed!!!");
+		} 
+		
+		
+	}
+ }
+}
+
+		
+	

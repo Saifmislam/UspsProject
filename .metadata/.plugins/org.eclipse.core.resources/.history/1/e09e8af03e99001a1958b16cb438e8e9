@@ -1,0 +1,39 @@
+package com.saif.assignment2;
+
+public class StudentGradeParameter {
+	
+public static class Class_2_IfElseStatement_Operators {
+
+public static void main (String[] args) {
+		
+		// If Else Statement
+
+		int Marks = 15;
+		
+		if(Marks>=90) {
+			System.out.println("You got A Grade!!!");
+		}
+		
+		else if (Marks>=80 && Marks <=89){
+			System.out.println("You got B Grade!!!");
+		}
+		
+		else if (Marks>=70 && Marks <=79){
+			System.out.println("You got C Grade!!!");
+		} 
+		
+		else if (Marks>=60 && Marks <=69){
+			System.out.println("You got D Grade!!!");
+		} 
+		
+		else if (Marks>60){
+			System.out.println("Sorry You Failed!!!");
+		} 
+		
+		
+	}
+ }
+}
+
+		
+	
